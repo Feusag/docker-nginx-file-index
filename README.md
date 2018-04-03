@@ -1,8 +1,6 @@
 #nginx file index
 This web application is a very simple file index for use as a file browser and uses [nginx's autoindex module](http://nginx.org/en/docs/http/ngx_http_autoindex_module.html).
 
-![nginx file browser in action](assets/Screen-Shot-1.jpg)
-
 A sample nginx configuration is also included which mounts **file browser** under root (`/`) and mounts files to be listed under `/files` path. Hence the `filesBaseUrl` directive
 
 ## Building locally
