@@ -24,7 +24,7 @@ $ docker run -it -d -p 80:80 -v /path/to/files/:/opt/www/files/ rickrussell/ngin
 
 With container up and running you can point your browser to IP of docker host with given port to view the files. For example with above run command assuming docker host having IP with `192.168.0.200` we have to navigate to this URL:
 
-`http://10.66.6.1`
+`http://192.168.0.200`
 
 
 ## Symlinks
